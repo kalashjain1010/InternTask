@@ -52,7 +52,8 @@ function Main() {
         IT Desk{" "}
       </Box>
       <Box
-        border={"1px solid red"}
+        // border={"10px solid"}
+        boxShadow={"rgba(0, 0, 0, 0.16) 0px 1px 4px;"}
         position={"absolute"}
         mt={"150px"}
         ml="250px"

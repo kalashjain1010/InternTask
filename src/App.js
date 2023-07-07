@@ -1,12 +1,11 @@
-import Dashboard from "./Dashboard";
-import LoginPage from "./LoginPage";
 
+import { router } from "./routes";
+import { RouterProvider } from "react-router-dom";
 
 function App() {
   return (
       <>
-        {/* <LoginPage/> */}
-        <Dashboard/>
+        <RouterProvider router={router} />
       </>
   );
 }

@@ -6,7 +6,7 @@ const Sidebar = () => {
       <Box height="100vh" width="200px">
         <VStack p="0" pt={4}>
           <Button colorScheme="teal " variant='outline' bgColor={"-moz-initial"} >---- IT dashboaed</Button>
-          <Button colorScheme="teal " variant='outline' bgColor={"-moz-initial"} >---- IT dashboaed</Button>
+          <Button colorScheme="teal " variant='outline' bgColor={"-moz-initial"} width={"80%"} >---- IT Ticket</Button>
         </VStack>
       </Box>
    

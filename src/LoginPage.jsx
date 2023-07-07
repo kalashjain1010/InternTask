@@ -62,7 +62,7 @@ const LoginPage = () => {
           </Box>
           <Box>
             <Button colorScheme="blue" width="250px" bg="#1296b0">
-              Login to People
+              Login to PeopleSol
             </Button>
           </Box>
           <Image src={logo1} position="absolute" height="80px" mt="500px" />
