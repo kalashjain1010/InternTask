@@ -4,7 +4,7 @@ import {
   Flex,
   Image,
   Spacer,
-  Center,
+ 
   Stack,
   Text,
   Divider,

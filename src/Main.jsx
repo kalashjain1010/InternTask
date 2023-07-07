@@ -3,11 +3,7 @@ import {
   Box,
   Card,
   CardHeader,
-  CardBody,
-  Heading,
-  Stack,
   Text,
-  Flex,
   HStack,
   MenuList,
   Menu,
@@ -179,7 +175,7 @@ function Main() {
                 </CardHeader>
               </Card>
             </Box>
-            <Box ml="20px" mt={"-120px"} >
+            <Box ml="20px" mt={"-120px"}>
               <Text
                 borderBottom={"2px"}
                 borderBottomColor={"#f6f6f6"}
@@ -197,13 +193,21 @@ function Main() {
                 mt="10px"
               >
                 <Box display={"flex"} flexDir={"row"}>
-                  <Text ml={"10px"} fontSize={"smaller"}>Final OPs Rating</Text>
-                  <Text ml={"60px"} fontSize={"smaller"} >Overall Rating:27</Text>
-                  <Text ml={"80px"} fontSize={"smaller"} >ITSM Rating</Text>
-                  <Text ml={"80px"} mr={"10px"} fontSize={"smaller"} >Overall Rating:20</Text>
+                  <Text ml={"10px"} fontSize={"smaller"}>
+                    Final OPs Rating
+                  </Text>
+                  <Text ml={"60px"} fontSize={"smaller"}>
+                    Overall Rating:27
+                  </Text>
+                  <Text ml={"80px"} fontSize={"smaller"}>
+                    ITSM Rating
+                  </Text>
+                  <Text ml={"80px"} mr={"10px"} fontSize={"smaller"}>
+                    Overall Rating:20
+                  </Text>
                 </Box>
                 <Box display={"flex"} mt={"10px"} flexDir={"row"}>
-                  <Image ml={"10px"}  objectFit={"none"} src={rate} />
+                  <Image ml={"10px"} objectFit={"none"} src={rate} />
                   <Image ml={"80px"} objectFit={"none"} src={rate} />
                 </Box>
               </Card>
