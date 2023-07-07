@@ -8,7 +8,7 @@ const Sidebar = () => {
       <Box height="100vh" width="200px">
         <VStack p="0" pt={4}>
           <Link to={DASHBOARD}>
-          <Button colorScheme="teal " variant='outline' bgColor={"-moz-initial"} > IT dashboard</Button>
+          <Button colorScheme="teal " variant='outline' bgColor={"-moz-initial"} >IT dashboard</Button>
           </Link>
           <Link to={TABLE}>
           <Button colorScheme="teal " textAlign={"center"} variant='outline' bgColor={"-moz-initial"}   >---- IT Ticket</Button>
